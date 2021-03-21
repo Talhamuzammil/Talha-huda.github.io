@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+.img1 img{
+    width: 100%;
+    height: 90vh;
+}
+
+.navbar{
+    background-color: rgba(199, 205, 211, 0.753) ;
+    width: 100%;
+    height: 80px;
+    padding:0px 0px;
+
+}
+h1{
+    color: rgb(206, 20, 20);
+    float: left;
+    padding: 13px 20px;
+    font-size: 40px;
+    font-family: "Agustina Regular";
+}
+span{
+    color: rgb(27, 255, 27);
+    font-size: 44px;
+}
+.navbar .nav-left{
+    margin-right: 30px;
+    margin-top: 25px;
+    float: right;
+}
+.navbar .nav-left ul li {
+
+    padding: 0px 0px;
+    margin-top: 35px;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar .nav-left ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+.navbar .nav-left ul li a:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 22px;
+    transition: 0.1s ease;
+    border-radius: 8px;
+ 
+}
+.nav-right h1:hover span{
+    color: rgb(191, 194, 53);
+    transition: 0.1s  ease-out;
+   font-size: 49px;
+}
+
+.scroll{
+    background-color: rgba(128, 128, 128, 0.349);
+    height: 60vh;
+    width: 100%;
+    margin-top: -4px;
+}
+.head1{
+    position: absolute;
+    top: 115vh;
+    left: 10vh;
+    font-size: 114%;    
+
+}
+.head2{
+    position: absolute;
+    top: 119vh;
+    left: 10vh;    
+
+}
+.para{
+    position: absolute;
+    top: 127vh;
+    left: 10vh;
+    font-size: 17px;    
+
+}
+.img2 img{
+    position: absolute;
+    right: 20vh;
+    top: 118vh;
+}
+.img2:hover img{
+    height: 60px;
+    width: 100px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(230, 230, 230, 0.767);
+    width: 106%;
+    height: 80px;
+    padding: 17px 0px;
+    border: solid 2px;
+}
+footer ul li  {
+    padding: 1px 130px;
+    margin-top: 3px ;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+footer ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 18px 10px;
+    text-decoration: none;
+    color: black;
+}
+.endfoot{
+    position: fixed;
+    top: 88vh;
+}
+.map{
+    position: absolute;
+    top: 15px;
+    right: 75px;
+}
+
+.ice{
+    position: absolute;
+    top: 10px;
+    left: 255px;
+}
+
+.story{
+    position: absolute;
+    top: 9px;
+   left: 626px;
+}
+
+.flavor{
+    position: absolute;
+    top: 9px;
+   right: 426px;
+}
